@@ -7,7 +7,7 @@
 @import 'abstracts/mixins';
 @import 'abstracts/placeholders';
 
-@import 'vendor/normalize';
+@import 'vendors/normalize';
 // @import 'vendor/bourbon/bourbon';
 
 @import 'base/typography';
@@ -18,7 +18,7 @@
 
 // @import 'components/buttons';
 
-// @import 'pages/home';
+@import 'pages/splash';
 // @import 'pages/contact';
 //
 // @import 'themes/theme';

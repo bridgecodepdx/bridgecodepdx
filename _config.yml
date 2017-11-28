@@ -6,11 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: BridgeCode
+description: # > means to ignore newlines until "baseurl:"
+  Learn programming without quitting your day job! Take night and weekend coding classes in Gresham, Oregon. No experience required. Contact us now for more info!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
