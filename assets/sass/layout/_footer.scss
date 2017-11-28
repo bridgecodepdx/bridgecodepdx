@@ -1,3 +1,20 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+.copyright {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.item4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .cta {
+    height: 80px;
+    background-color: springgreen;
+  }
+}
