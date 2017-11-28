@@ -2,13 +2,31 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
-.tagline {
-  color: white;
-  text-align: center;
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 70vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          align-items: center;
+
+  .tagline {
+    color: white;
+    font-size: 64px;
+    max-width: 900px;
+    text-align: center;
+  }
 }
 
+
 .item2 {
-  line-height: 27px;
+  line-height: 1.5em;
 }
 
 .pitch {
