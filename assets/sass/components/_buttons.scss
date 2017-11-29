@@ -1,0 +1,16 @@
+.contact-button {
+  background: #FFDD0C;
+  font-family: $header-font-stack;
+  font-size: 24px;
+  font-weight: 300;
+  color: #323232;
+  height: 50px;
+  width: 528px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .mail-icon {
+    max-width: 29px;
+  }
+}
