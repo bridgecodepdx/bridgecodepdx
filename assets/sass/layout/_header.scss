@@ -17,13 +17,28 @@ header {
           align-items: center;
 
   .tagline {
-    max-width: 900px;
+    max-width: 320px;
     text-align: center;
+
+    @include tablet {
+      max-width: 600px;
+    }
+
+    @include desktop {
+      max-width: 900px;
+    }
   }
 }
 
-.item2 {
-  line-height: 1.5em;
+.logo {
+  max-width: 250px;
+  display: block;
+  margin: 0 auto;
+
+  @include desktop {
+    display: block;
+    margin: 0;
+  }
 }
 
 .pitch {

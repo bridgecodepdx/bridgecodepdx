@@ -4,12 +4,40 @@
 header .tagline {
   color: white;
   font-family: $header-font-stack;
-  font-size: 64px;
+  font-size: 2em;
   font-weight: 500;
   text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+
+  @include tablet {
+    font-size: 2.7em;
+  }
+
+  @include desktop {
+    font-size: 64px;
+  }
 }
 
 body {
   color: $text-color;
   font: normal 100% / 1.4 $text-font-stack;
+}
+
+
+.item2 {
+  line-height: 1.5em;
+
+  @include tablet {
+    p {
+      font-size: .8em;
+    }
+  }
+}
+
+.copyright p {
+  margin: 0;
+  font-size: .6em;
+
+  @include desktop {
+    font-size: 1em;
+  }
 }
