@@ -10,7 +10,7 @@ title: BridgeCode
 description: # > means to ignore newlines until "baseurl:"
   Learn programming without quitting your day job! Take night and weekend coding classes in Gresham, Oregon. No experience required. Contact us now for more info!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://bridgecodepdx.github.io" # the base hostname & protocol for your site
 
 # Markdown settings
 markdown: kramdown
