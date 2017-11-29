@@ -6,6 +6,10 @@
   .details-header {
     h2 {
       text-align: center;
+
+      @include tablet {
+        font-size: 1.1em;
+      }
     }
   }
 
@@ -14,8 +18,17 @@
     padding-left: 55px;
     padding-right: 55px;
 
+    @include tablet {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
     ul {
       flex-basis: 50%;
+
+      @include tablet {
+        font-size: .7em;
+      }
     }
   }
 }

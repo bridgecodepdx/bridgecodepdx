@@ -13,7 +13,7 @@
   box-shadow: 0 14px 18px 0 rgba(0,0,0,0.50);
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: 1fr 1fr 5em;
+  grid-template-rows: 1fr 8em 1fr 5em;
   grid-gap: 15px;
   margin: 0 auto;
   min-height: 500px;
@@ -24,6 +24,10 @@
   @include tablet {
     padding: 35px;
     width: 600px;
+  }
+
+  @include desktop {
+    grid-template-rows: 1fr 1fr 5em;
   }
 }
 
@@ -53,6 +57,10 @@
   .details-panel {
     display: grid;
     grid-template-rows: 3.5em 7em;
+
+    @include tablet{
+      grid-template-rows: 3.5em 6em;
+    }
   }
 }
 
