@@ -13,3 +13,14 @@ body {
   color: $text-color;
   font: normal 100% / 1.4 $text-font-stack;
 }
+
+
+.item2 {
+  line-height: 1.5em;
+
+  @include tablet {
+    p {
+      font-size: .8em;
+    }
+  }
+}
