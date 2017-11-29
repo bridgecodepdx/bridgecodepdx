@@ -32,10 +32,12 @@ header {
 
 .logo {
   max-width: 250px;
+  display: block;
+  margin: 0 auto;
 
-  @include tablet {
+  @include desktop {
     display: block;
-    margin: 0 auto;
+    margin: 0;
   }
 }
 

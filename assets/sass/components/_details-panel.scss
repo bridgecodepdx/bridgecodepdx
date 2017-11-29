@@ -4,6 +4,14 @@
   border-top: 5px solid #000;
 
   .details-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include desktop {
+      display: block;
+    }
+
     h2 {
       text-align: center;
 
@@ -15,19 +23,35 @@
 
   .details-list {
     display: flex;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding: 0 15px 15px 15px;
+
+    @include mobile {
+      display: block;
+      margin: 0 auto;
+    };
 
     @include tablet {
-      padding-left: 16px;
-      padding-right: 16px;
+      padding: 0 16px 0 16px;
+    }
+
+    @include desktop {
+      padding: 0 55px 0 55px;
     }
 
     ul {
       flex-basis: 50%;
+      font-size: .8em;
+
+      @include mobile {
+        margin: 0;
+      };
 
       @include tablet {
         font-size: .7em;
+      }
+
+      @include desktop {
+        font-size: 1em;
       }
     }
   }
