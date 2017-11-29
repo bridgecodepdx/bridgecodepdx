@@ -2,15 +2,20 @@
   background: #FFDD0C;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
   font-family: $header-font-stack;
-  font-size: 24px;
+  font-size: 1em;
   font-weight: 300;
   color: #323232;
   height: 50px;
-  width: 528px;
+  width: 24em;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   transition: all .3s;
+
+  @include desktop {
+    font-size: 24px;
+    width: 528px;
+  }
 
   .mail-icon {
     max-width: 29px;
