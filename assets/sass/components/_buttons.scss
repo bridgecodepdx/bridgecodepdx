@@ -1,5 +1,6 @@
 .contact-button {
   background: #FFDD0C;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
   font-family: $header-font-stack;
   font-size: 24px;
   font-weight: 300;
@@ -9,8 +10,14 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  transition: all .3s;
 
   .mail-icon {
     max-width: 29px;
+  }
+
+  &:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.50);
+    background-color: #FFEA19;
   }
 }

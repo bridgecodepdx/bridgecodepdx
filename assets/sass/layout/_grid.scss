@@ -13,7 +13,7 @@
   box-shadow: 0 14px 18px 0 rgba(0,0,0,0.50);
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 5em;
   grid-row-gap: 15px;
   margin: 0 auto;
   min-height: 500px;
